@@ -1,0 +1,38 @@
+{
+	"pages": [
+		{
+			"path": "pages/calendar/calendar",
+			"style": {}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {}
+		}
+    ],
+	"tabBar": {
+		"selectedColor": "#0fffff",
+		"list": [
+			{
+				"pagePath": "pages/calendar/calendar",
+				"text": "日历",
+				"iconPath": "/static/icon/tab-bar/normal/calendar.png",
+				"selectedIconPath": "/static/icon/tab-bar/activated/calendar.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/icon/tab-bar/normal/my.png",
+				"selectedIconPath": "/static/icon/tab-bar/activated/normal.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
